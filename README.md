@@ -1,27 +1,40 @@
-# Build Star: Daily Amazon Affiliate Video System
+# Ecom Star: Amazon Overall #1 Affiliate Video System
 
-Build Star duplicates the Construction Project Hub and adds a daily, compliance-first affiliate-video workflow for the Build Smart Tools & Materials channel. It selects one eligible product from Amazon Tools & Home Improvement using public Best Sellers Rank evidence, creates an original vertical video, and uploads it after checks pass.
+Ecom Star duplicates the complete Build Star project and adds a category-independent, single-product affiliate-video workflow. Every midnight it checks Amazon’s overall Best Sellers list, selects only the visible #1 product, creates an original vertical marketing video, and publishes it after rights, factual, safety, and platform checks pass. Amazon’s public ordering is sales-based evidence, but it is not a disclosure of exact unit sales.
 
-Repository: https://github.com/henrynkoh/build_star
+Repository: https://github.com/henrynkoh/ecom_star
 
-[![Open Build Star Landing Page](https://img.shields.io/badge/OPEN-LANDING_PAGE-238636?style=for-the-badge&logo=githubpages&logoColor=white)](https://henrynkoh.github.io/build_star/)
+[![Open Ecom Star Landing Page](https://img.shields.io/badge/OPEN-LANDING_PAGE-238636?style=for-the-badge&logo=githubpages&logoColor=white)](https://henrynkoh.github.io/ecom_star/)
 
-## Daily Build Star Routine
+## Daily Ecom Star Routine
 
-At 12:00 PM America/Los_Angeles every day:
+At 12:00 AM America/Los_Angeles every day:
 
-1. Inspect Amazon Tools & Home Improvement Best Sellers and record the public category rank, ASIN, timestamp, and source URL.
-2. Select the highest-ranked eligible product not recently featured. Never claim exact unit sales unless Amazon displays them.
-3. Use only product media that Amazon or the rights holder permits for affiliate use. Do not republish an Amazon listing or ad wholesale.
-4. Write original narration and on-screen copy based on verified specifications. Avoid unsupported performance, quality, availability, or bestseller claims.
-5. Create one vertical affiliate video with the tracking tag `buildsmartpic-20`.
-6. Include the exact disclosure: `As an Amazon Associate I earn from qualifying purchases.`
-7. Mark paid promotion, AI use, and not made for kids in YouTube Studio.
-8. Upload Public only after copyright and platform checks show no issues.
-9. Log the product, evidence, affiliate URL, video URL, and outcome.
+1. Inspect Amazon’s overall Best Sellers page and record the visible #1 product, rank, ASIN, timestamp, and source URL.
+2. Select **only #1 overall**, regardless of industry or category. Do not substitute #2. If #1 is ineligible, unsafe, unavailable, recalled, or lacks verifiably permitted media, stop that day and report the reason.
+3. Use the affiliate tracking tag `buildsmartpic-20`. Never claim exact sales volume unless Amazon explicitly displays it.
+4. Use as many useful product visuals as the video needs, but only when affiliate, manufacturer, or other reuse permission is verified. Do not copy an Amazon listing or advertisement wholesale, and do not use customer review media.
+5. Write original narration, captions, hooks, and calls to action from verified product facts.
+6. Create one 20–45 second, 1080 × 1920 vertical video customized to that single product.
+7. Include the exact disclosure: `As an Amazon Associate I earn from qualifying purchases.`
+8. Mark paid promotion, answer the AI/synthetic-content setting truthfully, and mark the video not made for kids.
+9. Upload Public as soon as copyright, factual, safety, and platform checks pass.
+10. Log the evidence, affiliate URL, media-rights basis, output files, public video URL, and outcome.
+
+## Single-Product Video Strategy
+
+Use a product-specific structure rather than the construction workflow format:
+
+- **0–2 seconds:** pattern-interrupt hook identifying it as Amazon’s #1 overall seller at the recorded check time
+- **2–6 seconds:** clear product identity and strongest permitted hero visual
+- **6–16 seconds:** the buyer problem or use case, without unsupported claims
+- **16–28 seconds:** 2–4 verified features shown with varied permitted images, close-ups, diagrams, or original graphics
+- **28–36 seconds:** who it is for, limitations, compatibility, and a safety note when relevant
+- **36–45 seconds:** concise affiliate call to action and visible disclosure
+
+Adapt pacing, tone, colors, typography, proof points, and safety language to the selected product’s market. Avoid repetitive templates that obscure what the product actually is.
 
 See [automation/DAILY_WORKFLOW.md](automation/DAILY_WORKFLOW.md) for the operating specification.
-
 
 ## Highlights
 
@@ -36,8 +49,8 @@ See [automation/DAILY_WORKFLOW.md](automation/DAILY_WORKFLOW.md) for the operati
 ## Quick Start
 
 ```bash
-git clone https://github.com/henrynkoh/build_star.git
-cd build_star
+git clone https://github.com/henrynkoh/ecom_star.git
+cd ecom_star
 python3 -m http.server 8000
 ```
 
@@ -53,7 +66,7 @@ Read next:
 ## Project Structure
 
 ```text
-build_star/
+ecom_star/
 ├── index.html
 ├── step-01.html ... step-15.html
 ├── affiliate.html
