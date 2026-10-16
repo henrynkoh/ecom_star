@@ -2,7 +2,7 @@
 
 ## Purpose
 
-Produce one original, category-independent Amazon affiliate video every day for the single product visibly ranked #1 on Amazon’s overall Best Sellers list at the midnight check. Use verifiable facts, permitted media, clear commercial disclosure, and product-specific safety language.
+Produce one original, category-independent Amazon affiliate video every day for the first product visibly carrying a #1 rank in page order on Amazon’s Any Department Best Sellers page at the midnight check. Use verifiable facts, permitted media, clear commercial disclosure, and product-specific safety language.
 
 ## Schedule
 
@@ -10,29 +10,29 @@ Produce one original, category-independent Amazon affiliate video every day for 
 - Time zone: America/Los_Angeles
 - Cadence: daily
 - Affiliate tracking ID: `buildsmartpic-20`
-- Source list: Amazon Best Sellers, Any Department / overall
+- Source list: Amazon Best Sellers, Any Department; select the first visible category #1 in page order as the cross-category proxy
 - Source URL: `https://www.amazon.com/gp/bestsellers/`
 - Destination channel: Build Smart Tools & Materials (`@BuildSmartPicks`) unless the user later designates another channel
 - Publish state: Public only after all gates pass
 
 ## Meaning of “number one by sales volume”
 
-Amazon describes Best Sellers as popular products based on sales, updated frequently, but it does not publicly disclose exact unit-sales totals for every item. Ecom Star therefore uses the product visibly shown at **#1 on Amazon’s overall Best Sellers page** as the auditable source of truth.
+Amazon describes Best Sellers as popular products based on sales and updates the page frequently. However, the Any Department page shows separate category lists and does not publish one cross-department overall #1. Ecom Star therefore uses the **first visible product carrying a #1 rank in page order** as a transparent, repeatable cross-category proxy.
 
 Record:
 
 - Timestamp and America/Los_Angeles time zone
-- Page heading proving the view is overall / Any Department
-- Visible rank #1
+- Page heading proving the view is Any Department
+- The first category heading shown, its position in page order, and the visible #1 rank
 - Product title, ASIN, price as observed, and detail URL
 - Rating, review count, and any visible “bought in past month” bucket, quoted exactly
 - Screenshot or captured page evidence
 
-Never infer or invent a precise unit-sales number. Describe the result as “Amazon’s #1 overall Best Seller when checked” with the check date or timestamp.
+Never infer or invent a precise unit-sales number. Never call the selected item Amazon’s true overall sales champion. Describe it accurately as the first #1 bestseller shown on Amazon’s Any Department page and name its actual category and check time.
 
 ## Exactly one product
 
-Select only the visible #1 overall product. Do not replace it with #2 or a category alternative. If #1 fails any eligibility gate, log a blocked run for that day and do not publish a substitute product. The same product may be featured on consecutive days if it remains #1, but the script, hook, and creative treatment should not misrepresent newness.
+Select only the first visible #1-ranked product in page order on the Any Department page. Do not replace it with #2 or a different category’s #1. If #1 fails any eligibility gate, log a blocked run for that day and do not publish a substitute product. The same product may be featured on consecutive days if it remains #1, but the script, hook, and creative treatment should not misrepresent newness.
 
 ## Eligibility gates
 
@@ -77,7 +77,7 @@ The video must be tailored to the product rather than forced into a construction
 
 ### Recommended 20–45 second structure
 
-- **0–2 seconds:** high-clarity hook: Amazon’s #1 overall seller at the recorded check time
+- **0–2 seconds:** high-clarity hook naming the actual category and #1 rank at the recorded check time
 - **2–6 seconds:** product name, category context, and strongest permitted hero visual
 - **6–16 seconds:** the practical need, problem, or desire the product addresses
 - **16–28 seconds:** 2–4 verified features demonstrated with varied permitted visuals or original diagrams
@@ -118,7 +118,7 @@ Before publishing, verify:
 
 - Signed-in channel is **Build Smart Tools & Materials** (`@BuildSmartPicks`) unless a new channel has been explicitly designated
 - Title and description identify the correct product and ASIN
-- Any #1 claim includes the observed check date or time context
+- Any #1 claim names the actual category and includes the observed check date or time context
 - Affiliate link uses `buildsmartpic-20`
 - Required Amazon Associates disclosure is present
 - Paid promotion is marked
@@ -135,7 +135,7 @@ If the active channel is wrong, media rights are unclear, facts conflict, upload
 Record:
 
 - Date and start/finish time
-- Overall #1 product, ASIN, rank evidence, and source URL
+- Selected first-displayed category #1 product, actual category, ASIN, page-order evidence, and source URL
 - Eligibility and recall/safety check result
 - Affiliate URL
 - Media sources and usage basis
