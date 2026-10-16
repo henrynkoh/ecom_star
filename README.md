@@ -36,6 +36,26 @@ Adapt pacing, tone, colors, typography, proof points, and safety language to the
 
 See [automation/DAILY_WORKFLOW.md](automation/DAILY_WORKFLOW.md) for the operating specification.
 
+## REA + Six Sigma Quality System
+
+Ecom Star now combines Reverse Engineering Agent analysis with Six Sigma DMAIC controls:
+
+- **REA:** inspect successful public content, identify evidence-backed communication principles, and separate observations from hypotheses.
+- **Define:** specify the product, viewer decision, scope, sources, caveats, and stop conditions.
+- **Measure:** calculate claim evidence, media-rights, Voice of Customer, rework, and publication quality measures.
+- **Analyze:** use source-conflict review, Five Whys, Pareto analysis, and FMEA.
+- **Improve:** create original product-specific videos using clear promises, observable proof, buyer-order information, integrity, and one action.
+- **Control:** require zero critical defects, 100% evidence and media-rights coverage, independent challenge, and post-publication verification.
+
+Public benchmark used for quality research: [Justin Brown - Primal Video Amazon affiliate tutorial](https://www.youtube.com/watch?v=r82aqQCBqjM). It was the highest-viewed directly relevant Amazon-affiliate tutorial in a 34-video search sample observed on 2026-10-16. This is a transparent benchmark proxy, not a universal number-one claim.
+
+Ecom Star does not copy the benchmark's script, footage, thumbnail, branding, or editing. See:
+
+- [Public benchmark REA analysis](research/BENCHMARK_REA.md)
+- [REA + Six Sigma quality system](automation/REA_SIX_SIGMA.md)
+- [Daily workflow](automation/DAILY_WORKFLOW.md)
+
+
 ## Highlights
 
 - 15 construction workflow pages, from site preparation through final punch list
