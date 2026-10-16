@@ -1,6 +1,6 @@
-# Ecom Star: Amazon Overall #1 Affiliate Video System
+# Ecom Star: Amazon Top-Featured #1 Affiliate Video System
 
-Ecom Star duplicates the complete Build Star project and adds a category-independent, single-product affiliate-video workflow. Every midnight it checks Amazon’s overall Best Sellers list, selects only the visible #1 product, creates an original vertical marketing video, and publishes it after rights, factual, safety, and platform checks pass. Amazon’s public ordering is sales-based evidence, but it is not a disclosure of exact unit sales.
+Ecom Star duplicates the complete Build Star project and adds a category-independent, single-product affiliate-video workflow. Every midnight it checks Amazon’s Any Department Best Sellers page and selects the first visible product carrying a #1 rank in page order. Amazon does not publish one cross-department overall sales champion, so this is a transparent, repeatable proxy. The product’s real category and check time must appear in every ranking claim.
 
 Repository: https://github.com/henrynkoh/ecom_star
 
@@ -10,8 +10,8 @@ Repository: https://github.com/henrynkoh/ecom_star
 
 At 12:00 AM America/Los_Angeles every day:
 
-1. Inspect Amazon’s overall Best Sellers page and record the visible #1 product, rank, ASIN, timestamp, and source URL.
-2. Select **only #1 overall**, regardless of industry or category. Do not substitute #2. If #1 is ineligible, unsafe, unavailable, recalled, or lacks verifiably permitted media, stop that day and report the reason.
+1. Inspect Amazon’s Any Department Best Sellers page and record the first visible #1-ranked product in page order, its actual category, ASIN, timestamp, and source URL.
+2. Select **only that first displayed #1 product** as the cross-category proxy. Do not substitute another category or #2. Never call it Amazon’s true overall sales champion because Amazon does not publish that ranking. If it is ineligible, stop that day and report the reason.
 3. Use the affiliate tracking tag `buildsmartpic-20`. Never claim exact sales volume unless Amazon explicitly displays it.
 4. Use as many useful product visuals as the video needs, but only when affiliate, manufacturer, or other reuse permission is verified. Do not copy an Amazon listing or advertisement wholesale, and do not use customer review media.
 5. Write original narration, captions, hooks, and calls to action from verified product facts.
@@ -25,7 +25,7 @@ At 12:00 AM America/Los_Angeles every day:
 
 Use a product-specific structure rather than the construction workflow format:
 
-- **0–2 seconds:** pattern-interrupt hook identifying it as Amazon’s #1 overall seller at the recorded check time
+- **0–2 seconds:** pattern-interrupt hook naming its actual Amazon category and #1 rank at the recorded check time
 - **2–6 seconds:** clear product identity and strongest permitted hero visual
 - **6–16 seconds:** the buyer problem or use case, without unsupported claims
 - **16–28 seconds:** 2–4 verified features shown with varied permitted images, close-ups, diagrams, or original graphics
