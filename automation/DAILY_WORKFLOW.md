@@ -147,3 +147,44 @@ Record:
 - Errors, blocks, or unresolved checks
 
 Never commit OAuth credentials, API secrets, browser cookies, or YouTube tokens to this repository.
+
+## REA + Six Sigma execution layer
+
+Use [REA_SIX_SIGMA.md](REA_SIX_SIGMA.md) for every run. The benchmark analysis at [../research/BENCHMARK_REA.md](../research/BENCHMARK_REA.md) provides general communication hypotheses only; never copy its creative expression.
+
+### Define
+
+Create a run charter containing the selected product, actual category and ranking context, ASIN, target viewer, buyer decision, authorized sources, media boundaries, required caveats, single call to action, and stop conditions.
+
+### Measure
+
+Before scripting, count objective claims, supported claims, assets, approved assets, unresolved contradictions, selected Voice of Customer questions, and answered questions. After production, record duration, distinct visuals, caption checks, rework cycles, and production time.
+
+Calculate and log:
+
+- Evidence coverage = supported objective claims / objective claims
+- Media-rights coverage = approved assets / assets used
+- Voice of Customer coverage = answered priority questions / selected priority questions
+- First-pass result = passed without correction or required rework
+
+Unavailable measurements must be marked unavailable, never estimated.
+
+### Analyze
+
+For every contradiction, blocked gate, or rework event, record the cause. Apply Five Whys to critical or repeated defects. Use a weekly Pareto review to identify the small number of defect categories producing most delays or corrections. Treat benchmark success as a hypothesis source, not proof of causation.
+
+### Improve
+
+Use an original treatment that applies the principles of a clear promise, observable proof, useful sequence, compliance, integrity, and one next action. Change one major creative variable at a time when practical. Put limitations, safety, and disclosure before the final call to action.
+
+### Control
+
+Require all gates in REA_SIX_SIGMA.md. Critical defects have zero tolerance. Evidence coverage, media-rights coverage, required disclosure, product-to-ASIN matching, and post-publication verification must each be 100%. Reopen the public video and verify playback, metadata, disclosure, affiliate URL, product match, and visibility.
+
+## Independent challenge
+
+Before upload, a verifier other than the creative-design role must attempt to disprove every material claim, detect product/ASIN mismatch, identify missing buyer limitations, confirm asset permissions, and check whether the creative is too similar to a benchmark. The run is blocked until material findings are resolved.
+
+## Voice of Customer loop
+
+Use public questions and comments only as evidence of buyer information needs. Do not treat them as factual product evidence. Classify questions into buyer fit, compatibility, limitations, safety, price/availability, included items, and alternatives. Select the highest-priority unanswered questions for the next improvement cycle.
